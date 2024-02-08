@@ -3,7 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "build": "tailwindcss --input app.css --output app.build.css"
+    "build": "tailwindcss --input app.css --output app.build.css",
+	"cs-check": "prettier -c .",
+	"cs-fix": "prettier -w ."
   },
   "devDependencies": {
     "@types/bun": "latest",
