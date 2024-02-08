@@ -1,8 +1,12 @@
 <html>
     <head>
+        {# some random twig comment #}
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="app.build.css" rel="stylesheet">
     </head>
-    <body><h1 class="underline text-3xl font-bold bg-sky-700">Hello prettier!</h1></body>
+    {% block body %}<body><h1 class="underline text-3xl font-bold bg-sky-700">Hello prettier!</h1></body>{% endblock %}
+    {% for i inm items %}
+      <p>do nothing {{ i }}</p>
+    {% endfor %}
 </html>
