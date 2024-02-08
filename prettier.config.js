@@ -9,5 +9,12 @@ export default {
     tabWidth: 4,
     semi: true,
     singleQuote: false,
-    printWidth: 120
-};
+    printWidth: 120,
+	"overrides": [
+		{
+		  "files": "*.twig",
+		  "options": {
+			"parser": "liquid-html"
+		  }
+		}
+	  ]};
