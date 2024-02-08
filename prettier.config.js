@@ -2,7 +2,7 @@ const twigMelody = import("prettier-plugin-twig-melody");
 const tailwind = import("prettier-plugin-tailwindcss");
 
 export default {
-    plugins: [twigMelody, tailwind],
+    plugins: [tailwind, twigMelody],
     twigMelodyPlugins: ["node_modules/prettier-plugin-twig-enhancements"],
     tabWidth: 4,
     semi: true,
